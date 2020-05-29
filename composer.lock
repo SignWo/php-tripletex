@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "6b30f13254d150c9f22df6f41dd82041",
@@ -1274,16 +1274,16 @@
     "packages-dev": [
         {
             "name": "blablacar/redis-client",
-            "version": "v1.0.10",
+            "version": "v1.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/blablacar/redis-client.git",
-                "reference": "215012fc25282c8021e8b6188f2260ad2b19b356"
+                "reference": "21e5b2864b90df0112ceddaf8fa5d6b2d54ed015"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/blablacar/redis-client/zipball/215012fc25282c8021e8b6188f2260ad2b19b356",
-                "reference": "215012fc25282c8021e8b6188f2260ad2b19b356",
+                "url": "https://api.github.com/repos/blablacar/redis-client/zipball/21e5b2864b90df0112ceddaf8fa5d6b2d54ed015",
+                "reference": "21e5b2864b90df0112ceddaf8fa5d6b2d54ed015",
                 "shasum": ""
             },
             "require": {
@@ -1314,7 +1314,7 @@
                 "client",
                 "redis"
             ],
-            "time": "2016-04-08T13:12:32+00:00"
+            "time": "2018-10-04T13:42:12+00:00"
         },
         {
             "name": "composer/semver",
@@ -3608,5 +3608,6 @@
     "platform-dev": [],
     "platform-overrides": {
         "php": "5.6"
-    }
+    },
+    "plugin-api-version": "1.1.0"
 }
